@@ -1,0 +1,31 @@
+{
+  "name": "lib-vue",
+  "version": "0.1.0",
+  "description": "Shared plugins for Vue ",
+  "main": "main.ts",
+  "scripts": {
+    "pack": "rollup -c -i src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmj-alliance/lib-vue.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "xmj-alliance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xmj-alliance/lib-vue/issues"
+  },
+  "homepage": "https://github.com/xmj-alliance/lib-vue#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "rollup": "^0.53.1",
+    "run-sequence": "^2.2.0"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
+}

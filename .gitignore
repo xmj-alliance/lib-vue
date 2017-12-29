@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Site Specific
+*.lock
+package-*.json
+/.vscode/*
+/dist/*
